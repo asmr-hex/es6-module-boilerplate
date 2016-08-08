@@ -9,7 +9,7 @@ export function test() {
 export class TestClass {
     constructor(...args) {
 	this.myVars = ["a", "b"]
-	console.log((()=>{return "yo"})())
+	console.log((()=>{return "hello world"})())
     }
     
     // default generator method
